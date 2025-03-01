@@ -1,0 +1,180 @@
+/* style for HTML files */
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    /* background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) , url("greenback.jpeg"); */
+    background-size: cover;
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image tiling */
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 1100px;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)) , url("hotpink.jpg");
+    background-size: cover;
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    font-family: 'Poppins',sans-serif;
+} 
+
+nav{
+    width: 100%;
+    height: 100px;
+  
+    color: #FFCD00;
+    display: flex;
+    justify-content: space-around;
+align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.menu a:hover{
+   border: 3px solid #FF00BF;
+   background: transparent;
+}
+
+
+.hoverinfo1 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .hoverinfo1 p {
+    display: none;
+    color: #000000;
+  }
+  .hoverinfo1:hover p {
+    box-shadow: 0px 0px 40px #FF00BF;
+    background: linear-gradient(#FF00BF, #FF00FF);
+    display: block;
+    border: 4px solid #FF00BF;
+  }
+
+  .hoverinfo2 {
+    position: absolute;
+    top: 100px;
+    left: 230px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .hoverinfo2 p {
+    display: none;
+    color: #000000;
+  }
+  .hoverinfo2:hover p {
+    box-shadow: 0px 0px 40px #FF00BF;
+    background: linear-gradient(#FF00BF, #FF00FF);
+    display: block;
+    border: 4px solid #FF00BF;
+  }
+
+  .hoverinfo3 {
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .hoverinfo3 p {
+    display: none;
+    color: #000000;
+  }
+  .hoverinfo3:hover p {
+    box-shadow: 0px 0px 40px #FF00BF;
+    background: linear-gradient(#FF00BF, #FF00FF);
+    display: block;
+    border: 4px solid #FF00BF;
+  }
+
+
+  .hoverinfo4 {
+    position: absolute;
+    top: 100px;
+    left: 990px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .hoverinfo4 p {
+    display: none;
+    color: #000000;
+  }
+  .hoverinfo4:hover p {
+    box-shadow: 0px 0px 40px #FF00BF;
+    background: linear-gradient(#FF00BF, #FF00FF);
+    display: block;
+    border: 4px solid #FF00BF;
+  }
+
+img {
+    border: 4px solid #FF00BF;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+  }
+
+img {
+    border: 4px solid #FF00BF;
+    border-radius: 8px;
+    width: auto;
+    height: 200px;
+  }
+
+img {
+    border: 4px solid #FF00BF;
+    border-radius: 8px;
+    width: auto;
+    height: 200px;
+  }
+
+  img {
+    border: 4px solid #FF00BF;
+    border-radius: 8px;
+    width: auto;
+    height: 200px;
+  }
+
+  .h1-text {
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    top: 200px;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #FFCD00;
+}
+
+  .h-text {
+    position: absolute;
+    top: 600px;
+    left: 22%;
+    max-width: 650px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #FFCD00;
+}
+
+
